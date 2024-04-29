@@ -10,15 +10,14 @@ Yun Gao (yungao3@illinois.edu)
 # Domain Knowledge Guided Deep Learning with Electronic Health Records 
 
 Citation to the original papar: C. Yin, R. Zhao, B. Qian, X. Lv and P. Zhang, "Domain Knowledge Guided Deep Learning with Electronic Health Records," 2019 IEEE International Conference on Data Mining (ICDM), Beijing, China, 2019, pp. 738-747, doi: 10.1109/ICDM.2019.00084.
->📋 short intro
+>📋 short intro abstract?
 
 
 ## Requirements 
 
-1. A
-2. B
-3. C
-4. D
+```bash
+pip install -r requirements.txt
+```
 
 
 ## Data Preprocessing 
@@ -36,4 +35,20 @@ Citation to the original papar: C. Yin, R. Zhao, B. Qian, X. Lv and P. Zhang, "D
 4. D
 
 ## Evaluation & Result
+
+| Model        | AUROC      | AURPC      | R@P80%     |
+| ------------ | ---------- | ---------- | ---------- |
+| LR           | **0.0000** | 0.0000     | 0.0000     |
+| RF           | 0.0000     | 0.0000     | 0.0000     |
+| SVM          | 0.0000     | 0.0000     | 0.0000     |
+| ------------ | ---------- | ---------- | ---------- |
+| GRU          | 0.0000     | 0.0000     | 0.0000     |
+| LSTM         | 0.0000     | 0.0000     | 0.0000     |
+| RETAIN       | 0.0000     | 0.0000     | 0.0000     |
+| GRAM         | 0.0000     | 0.0000     | 0.0000     |
+| KAME         | 0.0000     | 0.0000     | 0.0000     |
+| ------------ | ---------- | ---------- | ---------- |
+| RNN          | 0.0000     | 0.0000     | 0.0000     |
+| RNN+Maxpool  | 0.0000     | 0.0000     | 0.0000     |
+| RNN+rev      | 0.0000     | 0.0000     | 0.0000     |
 
