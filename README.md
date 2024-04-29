@@ -18,7 +18,12 @@ C. Yin, R. Zhao, B. Qian, X. Lv and P. Zhang, "Domain Knowledge Guided Deep Lear
 ```bash
 pip install -r requirements.txt
 ```
+## Set-up
 
+1. A
+2. B
+3. C
+4. D
 
 ## Data Preprocessing 
 
