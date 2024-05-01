@@ -18,6 +18,25 @@ C. Yin, R. Zhao, B. Qian, X. Lv and P. Zhang, "Domain Knowledge Guided Deep Lear
 ```bash
 pip install -r requirements.txt
 ```
+
+## File Structure
+
+    .
+    ├── Data_Preprocess_Increase_HF_Ratio.ipynb
+    ├── data                    
+    │   ├── vid.pickle          
+    │   ├── types.pickle         
+    │   ├──  sdqs.pickle  
+    │   ├──  rtypes.pickle  
+    │   ├── pids.pickle
+    │   ├──  hfs.pickle  
+    │   ├──  d_icd_diagnoses.csv
+    │   ├──  diagnoses_icd.csv
+    └── DL4H_Team_74_Final_Report.ipynb
+    └── requirements.txt
+    └── ...
+    └── ...
+
 ## Set-up
 
 1. A
