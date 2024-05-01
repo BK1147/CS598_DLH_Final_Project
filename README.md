@@ -26,12 +26,12 @@ pip install -r requirements.txt
     ├── data                    
     │   ├── vid.pickle          
     │   ├── types.pickle         
-    │   ├──  sdqs.pickle  
-    │   ├──  rtypes.pickle  
+    │   ├── seqs.pickle  
+    │   ├── rtypes.pickle  
     │   ├── pids.pickle
-    │   ├──  hfs.pickle  
-    │   ├──  d_icd_diagnoses.csv
-    │   └──  diagnoses_icd.csv
+    │   ├── hfs.pickle  
+    │   ├── d_icd_diagnoses.csv
+    │   └── diagnoses_icd.csv
     │
     └── DL4H_Team_74_Final_Report.ipynb
     └── requirements.txt
