@@ -36,15 +36,11 @@ C. Yin, R. Zhao, B. Qian, X. Lv and P. Zhang, "Domain Knowledge Guided Deep Lear
 
 ```bash
 python3 -m venv env
-```
-
-```bash
 source env/bin/activate
-```
-
-```bash
 pip install -r requirements.txt
 ```
+
+
 
 1. A
 2. B
