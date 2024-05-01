@@ -31,7 +31,8 @@ pip install -r requirements.txt
     │   ├── pids.pickle
     │   ├──  hfs.pickle  
     │   ├──  d_icd_diagnoses.csv
-    │   ├──  diagnoses_icd.csv
+    │   └──  diagnoses_icd.csv
+    │
     └── DL4H_Team_74_Final_Report.ipynb
     └── requirements.txt
     └── ...
