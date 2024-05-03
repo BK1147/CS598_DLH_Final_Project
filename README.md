@@ -34,32 +34,37 @@ C. Yin, R. Zhao, B. Qian, X. Lv and P. Zhang, "Domain Knowledge Guided Deep Lear
 
 ## Set-up
 
+
+1. Clone the repository.
+```bash
+git clone https://github.com/BK1147/CS598_DLH_Final_Project.git
+```
+2. Install python package requirements using requirements.txt (Optional: use python virtual environments)
 ```bash
 python3 -m venv env
 source env/bin/activate
 pip install -r requirements.txt
 ```
-
-
-
-1. A
-2. B
-3. C
-4. D
+3. A secret key will be included as a separate download/note in our submission. Save this file to the root directory for this project as `secret.key`.
+```bash
+You can download `secret.key`
+- [`secret.key`] (https://drive.google.com/drive/folders/1SOuU9TfnHdI9R6mxhpTNvlaZ61zbgn5p)
+```
+4. You can simply RUN ALL `DL4H_Team_74_Final_Report.ipynb`
 
 ## Data Preprocessing 
 
 1. A
 2. B
 3. C
-4. D
+
 
 ## Training 
 
 1. A
 2. B
 3. C
-4. D
+
 
 ## Evaluation & Result
 
@@ -72,8 +77,6 @@ pip install -r requirements.txt
 | GRU          | 0.0000     | 0.0000     | 0.0000     | 0.0000     |
 | LSTM         | 0.0000     | 0.0000     | 0.0000     | 0.0000     |
 | RETAIN       | 0.0000     | 0.0000     | 0.0000     | 0.0000     |
-| GRAM         | 0.0000     | 0.0000     | 0.0000     | 0.0000     |
-| KAME         | 0.0000     | 0.0000     | 0.0000     | 0.0000     |
 | ------------ | ---------- | ---------- | ---------- | ---------- |
 | RNN          | 0.0000     | 0.0000     | 0.0000     | 0.0000     |
 | RNN+Maxpool  | 0.0000     | 0.0000     | 0.0000     | 0.0000     |
