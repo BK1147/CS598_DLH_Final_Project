@@ -18,7 +18,7 @@ C. Yin, R. Zhao, B. Qian, X. Lv and P. Zhang, "Domain Knowledge Guided Deep Lear
     .
     ├── Data_Preprocess_Increase_HF_Ratio.ipynb
     ├── data                    
-    │   ├── vid.pickle          
+    │   ├── vids.pickle          
     │   ├── types.pickle         
     │   ├── seqs.pickle  
     │   ├── rtypes.pickle  
@@ -29,7 +29,11 @@ C. Yin, R. Zhao, B. Qian, X. Lv and P. Zhang, "Domain Knowledge Guided Deep Lear
     │
     └── DL4H_Team_74_Final_Report.ipynb
     └── requirements.txt
-    └── ...
+    └── enc_d_icd_diagnoses
+    └── enc_diagnoses
+    └── enc_hfs_dataset_pkl
+    └── README.md
+    └── secret.key
     └── ...
 
 ## Set-up
@@ -39,7 +43,7 @@ C. Yin, R. Zhao, B. Qian, X. Lv and P. Zhang, "Domain Knowledge Guided Deep Lear
 ```bash
 git clone https://github.com/BK1147/CS598_DLH_Final_Project.git
 ```
-2. Install python package requirements using requirements.txt (Optional: use python virtual environments)
+2. Install python package requirements using requirements.txt (Optional: use python virtual environments).
 ```bash
 python3 -m venv env
 source env/bin/activate
