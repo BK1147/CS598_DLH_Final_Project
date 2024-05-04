@@ -58,16 +58,10 @@ You can download `secret.key`
 
 ## Data Preprocessing 
 
-1. A
-2. B
-3. C
+MIMIC IV data tables (version 2.2) are used as a basis for patient data analysis. The data was collected from PhysioNet. Our dataset was pulled from 'hosp' patient EHRs, and were filtered to only contain ICD-9 codes.
 
+The pre-processing of the MIMIC IV dataset has been relocated to Data_Preprocess.ipynb. Please refer to that notebook for inquiries regarding the filtering of the original dataset. After the pre-processing of the MIMIC IV dataset, we simply create the pickle file and utilize it directly from DL4H_Team_74_Final_Report.ipynb. The total pre-processing time ranges from 20 to 30 minutes depending on the computational background.
 
-## Training 
-
-1. A
-2. B
-3. C
 
 
 ## Evaluation & Result
