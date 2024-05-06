@@ -52,7 +52,7 @@ pip install -r requirements.txt
 3. A secret key will be included as a separate download/note in our submission. Save this file to the root directory for this project as `secret.key`.
 ```bash
 You can download `secret.key`
-- [`secret.key`] (https://drive.google.com/drive/folders/1SOuU9TfnHdI9R6mxhpTNvlaZ61zbgn5p)
+- [`secret.key`] (https://drive.google.com/drive/folders/1GuJjVOCeXADcaQ6eqSlMZsx9IGR8UFxn)
 ```
 4. You can simply RUN ALL `DL4H_Team_74_Final_Report.ipynb`
 
